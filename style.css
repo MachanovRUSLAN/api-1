@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .product-list {
+     display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.card {
+     width: 200px;
+    border-radius: 20px;
+    background-color: rgb(210, 71, 71);
+    padding: 20px;
+}
+.content p{
+    color: rgb(202, 200, 199);
+    padding-top: 10px;
+}
+.content img {
+    width: 100%;
+} */
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    width: 300px;
+    background-color: rgb(95, 106, 102);
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+   
+}
+.card p {
+    color: black;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.card h2{
+    color: aqua;
+}
